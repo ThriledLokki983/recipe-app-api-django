@@ -5,8 +5,8 @@ services:
     build:
       context: .
       args:
-        - DEV_MODE=true
-      # dockerfile: Dockerfile
+        - DEV=true
+
     ports:
       - "8000:8000"
     volumes:
